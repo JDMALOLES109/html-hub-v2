@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div className='grid grid-cols-1 h-16 bg-black text-white'>
-                <div className='flex'>
+            <div className='grid grid-cols-1 h-10 bg-black text-white'>
+                <div className='pl-4 flex items-center'>
                     <p>HTML HUB | 09089680129</p>
                 </div>
             </div>

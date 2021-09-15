@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = ({toggle}) => {
     return (
-        <div className='grid grid-cols-1 h-16 bg-white shadow'>
+        <div className='grid grid-cols-1 h-16 bg-gray-700 shadow text-white'>
             <div className='flex justify-between items-center'>
             <Link to = '/' className="pl-8">HTML HUB</Link>
 

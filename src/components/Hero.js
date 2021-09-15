@@ -1,14 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import tao from '../images/tao.png'
 const Hero = () => {
     return (
         <>
-            <div className=' grid grid-cols-1 p-2 h-screen'>
+            <div className=' grid grid-cols-1 p-8 h-screen'>
                 <div className='xl:grid lg:grid md:grid grid-cols-2 items-center'>
                     
                     <div className='pl-4 text-center'>
-                    <h1 className='xl:text-7xl lg:text-7xl md:text-5xl sm:text-5xl text-5xl'>HTML HUB</h1>
+                    <h1 className='xl:text-7xl lg:text-7xl md:text-5xl sm:text-5xl text-5xl motion-safe:animate-fadeIn'>HTML HUB</h1>
                     <div className='pt-4 flex justify-center'>
                     <button type='button' className='bg-blue-600 p-4 rounded-full text-white flex gap-2 transition duration-300 animate-bounce ease-in-out hover:bg-blue-300'>
                         Aralin na!
@@ -19,7 +18,9 @@ const Hero = () => {
                     </div>
                     </div>
                     
-                    <img src={tao} alt='tao' className='xl:w-8/12 lg:w-9/12 md:10/12 sm:w-11/12 w-11/12'/>
+                    <div className='flex justify-center'>
+                    <img src={tao} alt='tao' className='xl:w-8/12 lg:w-9/12 md:w-11/12 sm:w-6/12 w-6/12 motion-safe:animate-fadeIn'/>
+                    </div>
                     
                 </div>
             </div>
