@@ -3,11 +3,11 @@ import tao from '../images/tao.png'
 const Hero = () => {
     return (
         <>
-            <div className=' grid grid-cols-1 p-8 h-screen'>
+            <div className=' grid grid-cols-1 p-8 h-screen bg-white dark:bg-gray-900'>
                 <div className='xl:grid lg:grid md:grid grid-cols-2 items-center'>
                     
                     <div className='pl-4 text-center'>
-                    <h1 className='xl:text-7xl lg:text-7xl md:text-5xl sm:text-5xl text-5xl motion-safe:animate-fadeIn'>HTML HUB</h1>
+                    <h1 className='xl:text-7xl lg:text-7xl md:text-5xl sm:text-5xl text-5xl motion-safe:animate-fadeIn dark:text-white'>HTML HUB</h1>
                     <div className='pt-4 flex justify-center'>
                     <button type='button' className='bg-blue-600 p-4 rounded-full text-white flex gap-2 transition duration-300 animate-bounce ease-in-out hover:bg-blue-300'>
                         Aralin na!

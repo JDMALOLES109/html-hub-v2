@@ -6,9 +6,9 @@ const Dropdown = ({isOpen, toggle}) => {
         <>
             <div className={isOpen ? 'bg-blue-600 grid grid-rows-4 text-center items-center text-white motion-safe:animate-fadeIn' : 'hidden'} onClick={toggle}>
                 <Link to='/' className='p-4 hover:bg-blue-400 transition duration-300'>Home</Link>
-                <Link to='/' className='p-4 hover:bg-blue-400 transition duration-300'>HTML</Link>
-                <Link to='/' className='p-4 hover:bg-blue-400 transition duration-300'>CSS</Link>
-                <Link to='/' className='p-4 hover:bg-blue-400 transition duration-300'>JS</Link>
+                <Link to='/Html' className='p-4 hover:bg-blue-400 transition duration-300'>HTML</Link>
+                <Link to='/Css' className='p-4 hover:bg-blue-400 transition duration-300'>CSS</Link>
+                <Link to='/Js' className='p-4 hover:bg-blue-400 transition duration-300'>JS</Link>
             </div>  
         </>
     )

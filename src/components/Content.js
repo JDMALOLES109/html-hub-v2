@@ -11,13 +11,13 @@ const Content = () => {
 
     return (
         <>
-            <div className='bg-white grid grid-cols-1 p2 h-screen overflow-x-hidden overflow-y-hidden'>
+            <div className='bg-white dark:bg-gray-900 grid grid-cols-1 p2 h-screen overflow-x-hidden overflow-y-hidden'>
                 
                         <div className='xl:flex lg:flex md:flex justify-between items-center'>
                             
                                 <div className='pl-8 text-center' data-aos='fade-right'>
-                                <h1 className='text-4xl'>Kami ang bahala sayo!</h1>
-                                <p className='text-blue-600 pt-4'>HTML? JS? CSS? cover namin ito lahat!</p>
+                                <h1 className='text-4xl dark:text-white'>Kami ang bahala sayo!</h1>
+                                <p className='text-blue-600 pt-4 dark:text-blue-400'>HTML? JS? CSS? cover namin ito lahat!</p>
                                 </div>
 
 

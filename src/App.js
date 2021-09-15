@@ -1,11 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Content from './components/Content';
 import Footer from './components/Footer';
-import Team from './components/Team';
 import Dropdown from './components/Dropdown';
+import {Switch, Route} from 'react-router-dom';
+import Html from './pages/Html';
+import Css from './pages/Css';
+import Js from './pages/Js';
+import Home from './pages';
 
 
 function App() {
@@ -36,11 +38,14 @@ function App() {
   return (
     <>
 
-      <Navbar toggle={toggle}/>
+<Navbar toggle={toggle}/>
       <Dropdown isOpen={isOpen} toggle={toggle}/>
-      <Hero />
-      <Content />
-      <Team />
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/Html'  component={Html} />
+        <Route path='/Css'  component={Css} />
+        <Route path='/Js'  component={Js} />
+      </Switch>
       <Footer />
 
     </>

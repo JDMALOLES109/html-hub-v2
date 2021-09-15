@@ -16,9 +16,9 @@ const Navbar = ({toggle}) => {
 
             <div className='pr-4 lg:block sm:hidden md:block hidden '>
             <Link to='/' className='p-4 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out'>Home</Link>
-            <Link to='/' className='p-4 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out'>HTML</Link>
-            <Link to='/' className='p-4 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out'>CSS</Link>
-            <Link to='/' className='p-4 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out'>JS</Link>
+            <Link to='/Html' className='p-4 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out'>HTML</Link>
+            <Link to='/Css' className='p-4 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out'>CSS</Link>
+            <Link to='/Js' className='p-4 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out'>JS</Link>
             </div>
             </div>
         </div>
