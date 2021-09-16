@@ -7,6 +7,7 @@ import {Switch, Route} from 'react-router-dom';
 import Html from './pages/Html';
 import Css from './pages/Css';
 import Js from './pages/Js';
+import IDE from './lessons/IDE'
 import Home from './pages';
 
 
@@ -46,6 +47,7 @@ function App() {
         <Route path='/Html'  component={Html} />
         <Route path='/Css'  component={Css} />
         <Route path='/Js'  component={Js} />
+        <Route path='/IDE'  component={IDE} />
       </Switch>
       <Footer />
 

@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { Tab } from '@headlessui/react'
-import IDE from '../lessons/IDE'
+import {Link} from 'react-router-dom'
+
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -15,7 +16,7 @@ const TabsHtml = () => {
             id: 1,
             title: 'IDE',
             date: 'Ang mga software na iyong kailangan',
-            link: {IDE},
+            link: '/IDE',
           },
           {
             id: 2,
@@ -130,8 +131,8 @@ const TabsHtml = () => {
                       <li>{post.date}</li>
                     </ul>
 
-                    <a
-                      href={post.link}
+                    <Link
+                      to={post.link}
                       className={classNames(
                         'absolute inset-0 rounded-md',
                         'focus:z-10 focus:outline-none focus:ring-2 ring-blue-400'
