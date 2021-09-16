@@ -17,7 +17,7 @@ const Content = () => {
                             
                                 <div className='pl-8 text-center' data-aos='fade-right'>
                                 <h1 className='text-4xl dark:text-white'>Kami ang bahala sayo!</h1>
-                                <p className='text-blue-600 pt-4 dark:text-blue-400'>HTML? JS? CSS? cover namin ito lahat!</p>
+                                <p className='parag'>HTML? JS? CSS? cover namin ito lahat!</p>
                                 </div>
 
 

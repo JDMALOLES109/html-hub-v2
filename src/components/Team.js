@@ -17,7 +17,7 @@ const Team = () => {
                 <img src={prof} alt='jd'  className='xl:w-3/12 lg:w-3/12 md:w-3/12 sm:w-4/12 w-4/12 rounded-full'/>
                 </div>
                 <h1 className='text-3xl dark:text-white'>JD Maloles</h1>
-                <p className='text-blue-600 dark:text-blue-300'>CEO</p>
+                <p className='text-blue-600 dark:text-blue-300'>CEO/ Main developer</p>
                 </div>
             </div>
         </>

@@ -13,37 +13,27 @@ const Html = () => {
           {
             id: 1,
             title: 'IDE',
-            date: '5h ago',
-            commentCount: 5,
-            shareCount: 2,
+            date: 'Ang mga software na iyong kailangan',
           },
           {
             id: 2,
             title: "Basic Structure",
-            date: '2h ago',
-            commentCount: 3,
-            shareCount: 2,
+            date: 'Ang mahalagang tandaan na structure',
           },
           {
             id: 3,
             title: "Headings & Paragraphs",
-            date: '2h ago',
-            commentCount: 3,
-            shareCount: 2,
+            date: 'Ang paglalagay ng headings at paragraphs',
           },
           {
             id: 4,
             title: "Comments",
-            date: '2h ago',
-            commentCount: 3,
-            shareCount: 2,
+            date: 'Ang paglalagay ng comments sa HTML',
           },
           {
             id: 5,
             title: "Br and Hr tag",
-            date: '2h ago',
-            commentCount: 3,
-            shareCount: 2,
+            date: 'Ang paglalagay ng br at hr tag sa HTML',
           },
         ],
         'Module for intermediate': [
@@ -83,9 +73,13 @@ const Html = () => {
 
     return (
         <>
-            <div className='bg-gray-100 h-screen grid grid-cols-1'>
+            <div className='bg-gray-100 h-screen grid grid-cols-1 p-4 motion-safe:animate-fadeIn'>
 
-            <div className='flex justify-center items-center'>
+            <div className='xl:flex lg:flex justify-between items-center'>
+                <div className='xl:text-left lg:text-left md:text-center sm:text-center text-center'>
+                    <h1 className='headerUno'><span className='text-red-500'>H</span>yper <span className='text-red-500'>T</span>ext <span className='text-red-500'>M</span>arkup <span className='text-red-500'>L</span>anguage</h1>
+                    <p className='parag pb-4'>Ang buto ng website</p>
+                </div>
                 <div>
                 <Tab.Group>
         <Tab.List className="flex p-5 space-x-1 bg-blue-900/20 rounded-xl bg-white">
@@ -127,10 +121,6 @@ const Html = () => {
 
                     <ul className="flex mt-1 space-x-1 text-xs font-normal leading-4 text-coolGray-500">
                       <li>{post.date}</li>
-                      <li>&middot;</li>
-                      <li>{post.commentCount} comments</li>
-                      <li>&middot;</li>
-                      <li>{post.shareCount} shares</li>
                     </ul>
 
                     <a

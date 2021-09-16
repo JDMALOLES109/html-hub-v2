@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
         <div className={isEnabled ? 'dark' : ''}>
-            <div className='bg-white dark:bg-gray-900 dark:text-white pt-4 pl-4'>
+            <div className='bg-white dark:bg-gray-900 dark:text-white'>
             <Switch
             className='outline-none'
             checked={isEnabled}
