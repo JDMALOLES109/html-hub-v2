@@ -84,7 +84,7 @@ const Css = () => {
 
 <div className='xl:flex lg:flex justify-between items-center'>
     <div className='xl:text-left lg:text-left md:text-center sm:text-center text-center'>
-        <h1 className='headerUno'><span className='text-blue-500'>C</span>ascading <span className='text-blue-500'>S</span>yle <span className='text-blue-500'>S</span>heets</h1>
+        <h1 className='headerUno'><span className='text-blue-500'>C</span>ascading <span className='text-blue-500'>S</span>tyle <span className='text-blue-500'>S</span>heets</h1>
         <p className='parag pb-4'>Ang balat ng website</p>
     </div>
     <div>
