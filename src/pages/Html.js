@@ -13,6 +13,7 @@ const Html = () => {
             id: 1,
             title: 'IDE',
             date: 'Ang mga software na iyong kailangan',
+            link: '../lessons/IDE',
           },
           {
             id: 2,
@@ -40,7 +41,7 @@ const Html = () => {
             date: 'Ang paglalagay ng container sa loob ng isang HTML code',
           },
           {
-            id: 7,
+            id: 6,
             title: "Attributes",
             date: "Ang paglalagay ng attributes sa iba't ibang tags",
           },
@@ -133,7 +134,7 @@ const Html = () => {
                     </ul>
 
                     <a
-                      href="#"
+                      href={post.link}
                       className={classNames(
                         'absolute inset-0 rounded-md',
                         'focus:z-10 focus:outline-none focus:ring-2 ring-blue-400'
