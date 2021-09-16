@@ -11,7 +11,7 @@ import Home from './pages';
 
 
 function App() {
-
+  const [isEnabled, setIsEnabled] = useState(false);
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => {
@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-
+<div className={isEnabled ? 'dark' : ''}>
 <Navbar toggle={toggle}/>
       <Dropdown isOpen={isOpen} toggle={toggle}/>
       <Switch>
@@ -47,7 +47,7 @@ function App() {
         <Route path='/Js'  component={Js} />
       </Switch>
       <Footer />
-
+      </div>
     </>
   );
 }
