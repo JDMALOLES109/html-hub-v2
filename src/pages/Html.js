@@ -34,6 +34,16 @@ const Html = () => {
             title: "Br and Hr tag",
             date: 'Ang paglalagay ng br at hr tag sa HTML',
           },
+          {
+            id: 6,
+            title: "Div tag",
+            date: 'Ang paglalagay ng container sa loob ng isang HTML code',
+          },
+          {
+            id: 7,
+            title: "Attributes",
+            date: "Ang paglalagay ng attributes sa iba't ibang tags",
+          },
         ],
         'Module for intermediate': [
           {
