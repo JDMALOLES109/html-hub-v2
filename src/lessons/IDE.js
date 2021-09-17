@@ -19,13 +19,13 @@ const IDE = () => {
 
                     </div>
                 <div>
-                    <Switch className={isEnabled ? 'hidden' : 'cursor-pointer block fixed'} checked={isEnabled}
+                    <Switch className={isEnabled ? 'hidden' : 'cursor-pointer block '} checked={isEnabled}
             onChange={setIsEnabled} >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="blue">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clipRule="evenodd" />
                     </svg>
                     </Switch>
-                    <Switch className={isEnabled ? 'cursor-pointer block fixed' : 'hidden'} checked={isEnabled}
+                    <Switch className={isEnabled ? 'cursor-pointer block ' : 'hidden'} checked={isEnabled}
             onChange={setIsEnabled} >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="blue">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clipRule="evenodd" />
@@ -38,13 +38,15 @@ const IDE = () => {
                 </div>
             </div>
 
-            <div className='h-screen bg-gray-100 grid grid-cols-1'>
-                         <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 p-2'>
-                        <div className='bg-white rounded-md p-2'>
+            <div className='h-screen bg-gray-100 grid grid-cols-1 pt-16'>
+                         <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 p-4 '>
+                        <div className=''>
+                            <div className='bg-white rounded-md p-2'>
                             <h1 className='headerDos'>Mga bagay na kailangan malaman</h1>
                             <p className='xl:leading-6 lg:leading-6 md:leading-6 sm:leading-4 leading-4 text-left'>Maraming libre na IDE na pwede mong gamitin o iinstall. Itatala sa ibaba ang mga link o download site ng mga ito.
 
-Small weight size lamang ang mga IDE at pwede idownload sa lahat ng computer o laptop. Itatala din sa ibaba ang IDE na pwede sa smartphone.</p>
+                            Small weight size lamang ang mga IDE at pwede idownload sa lahat ng computer o laptop. Itatala din sa ibaba ang IDE na pwede sa smartphone.</p>
+                            </div>
                         </div>
                         </div>
             </div>
