@@ -96,7 +96,7 @@ const TabsHtml = () => {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full py-2.5 text-sm leading-5 font-medium text-blue-700 rounded-lg',
+                  'w-full py-2.5  text-sm leading-5 font-medium text-blue-700 rounded-lg',
                   'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
                   selected
                     ? 'bg-white shadow'
@@ -113,7 +113,7 @@ const TabsHtml = () => {
             <Tab.Panel
               key={idx}
               className={classNames(
-                'bg-white rounded-xl p-3 overflow-auto xl:h-60 lg:h-60 md:h-60 sm:h-40 h-40',
+                'bg-white rounded-xl p-3 shadow-xl overflow-auto xl:h-60 lg:h-60 md:h-60 sm:h-40 h-40',
                 'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60'
               )}
             >

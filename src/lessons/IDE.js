@@ -1,14 +1,22 @@
 import React, {useState, useEffect} from 'react'
 import TabsHtml from '../components/tabsHtml'
 import { Switch } from '@headlessui/react';
+import Ides from '../images/ides.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 const IDE = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1500});
+    }, []);
+
     const [isEnabled, setIsEnabled] = useState(true);
  
     return (
         <>
-            <div className='bg-gray-100 h-screen grid grid-cols-1 p-4 motion-safe:animate-fadeIn'>
+            <div className='bg-gray-200 h-screen grid grid-cols-1 p-4 motion-safe:animate-fadeIn'>
                 <div className='xl:flex lg:flex md:flex sm:text-center text-center justify-between items-center'>
                     <div className='xl:text-left lg:text-left md:text-left'>
                     <h1 className='headerUno'><span className='text-red-500'>I</span>ntegrated <span className='text-red-500'>D</span>evelopment <span className='text-red-500'>E</span>nvironment</h1>
@@ -38,10 +46,10 @@ const IDE = () => {
                 </div>
             </div>
 
-            <div className='h-screen bg-gray-100 grid grid-cols-1 pt-16'>
+            <div className='h-screen bg-gray-200 grid grid-cols-1 pt-16'>
                          <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 p-4 '>
                         <div className=''>
-                            <div className='bg-white rounded-md p-2'>
+                            <div className='bg-white rounded-md p-2 shadow-xl' data-aos='fade-up'>
                             <h1 className='headerDos'>Mga bagay na kailangan malaman</h1>
                             <p className='xl:leading-6 lg:leading-6 md:leading-6 sm:leading-4 leading-4 text-left'>Maraming libre na IDE na pwede mong gamitin o iinstall. Itatala sa ibaba ang mga link o download site ng mga ito.
 
@@ -50,6 +58,33 @@ const IDE = () => {
                         </div>
                         </div>
             </div>
+
+
+
+
+            <div className='h-screen bg-gray-200 grid grid-cols-1'>
+                         <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 p-4 '>
+
+                            <div className='flex xl:items-start lg:items-start md:items-start sm:justify-center justify-center'>
+                                <img src={Ides} alt='Ides' className='w-6/12' data-aos='fade-up'/>
+                            </div>
+
+                        <div className='pt-8'>
+                            <div className='bg-white rounded-md p-2 h-auto shadow-xl' data-aos='fade-up'>
+                            <h1 className='headerDos'>Ang mga IDE</h1>
+                            <p className='parag'>Ang listahan para sa platform na laptop/computer:</p>
+                            <ul className='list-disc list-inside'>
+                                <li><a href='https://code.visualstudio.com/Download' className='text-blue-300'>Visual Studio Code</a> isa sa mabisa at ginagamit ng karamihan sa pag gawa ng website.</li>
+                                <li><a href='https://notepad-plus-plus.org/downloads/' className='text-blue-300'>Notepad ++</a> ang pinaka simple at light-weight na IDE sa balat ng lupa.</li>
+                                <li><span className='text-blue-300'>Notepad</span> makikita ito sa iyong computer/laptop. Hindi ito maganda gamitin dahil hindi mo makikita ng mabilis ang iyong mga error.</li>
+                                <li><a href='https://www.sublimetext.com/download' className='text-blue-300'>Sublime Text</a> kasing level ng vscode at ginagamit din ng karamihan na professional.</li>
+                                <li><a href='https://atom.io/' className='text-blue-300'>Atom</a> halos kaparehas ng vscode pagdating sa itsura at environment.</li>
+                            </ul>
+                        </div>
+                        </div>
+            </div>
+            </div>
+            <div className='bg-gray-200 h-72 sm:h-72 md:h-28 lg:h-20 xl:h-20'></div>
         </>
     )
 }
