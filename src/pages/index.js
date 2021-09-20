@@ -1,6 +1,6 @@
 import React from 'react'
 import Content from '../components/Content'
-import Hero from '../components/Hero'
+import HeroSection from '../components/HeroSection'
 import Team from '../components/Team'
 
 
@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
         <>
-        <Hero />
+        <HeroSection />
         <Content />
         <Team />
         </>
