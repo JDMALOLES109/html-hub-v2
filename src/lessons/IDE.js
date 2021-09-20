@@ -1,9 +1,11 @@
 import React from 'react'
+import TabsForLessons from '../components/tabsForLessons'
+
 
 const IDE = () => {
     return (
         <>
-            <div className='bg-gray-300 h-auto grid grid-cols-2 p-4'>
+            <div className='bg-gray-300 h-auto grid grid-cols-2 pl-4 pt-4 pb-4'>
                 <div className='text-center'>
                     <div className='pb-4'>
                     <h1 className='text-4xl'>Integrated Development Environment</h1>
@@ -39,8 +41,8 @@ const IDE = () => {
 
 
             <div className='flex justify-end'>
-            <div className='bg-white h-16 w-72'>
-
+            <div className='w-7/12'>
+            <TabsForLessons />
             </div>
             </div>
 
