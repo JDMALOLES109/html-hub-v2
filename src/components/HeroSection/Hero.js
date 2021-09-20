@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
     background: #0c0c0c;
@@ -6,10 +6,10 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: auto;
     position: relative;
     z-index: 1;
-`
+`;
 
 
 export const HeroBg = styled.div`
@@ -21,12 +21,8 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-`
+`;
 
 export const VideoBg = styled.video`
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    background: #232a34;
-`
+    background-size: cover;
+`;
