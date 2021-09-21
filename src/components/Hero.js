@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const Hero = () => {
     return (
         <>
-            <div className=' grid grid-cols-1 p-8 h-screen bg-white dark:bg-gray-900'>
+            <div className=' grid grid-cols-1 p-8 h-screen'>
                 <div className='xl:grid lg:grid md:grid grid-cols-2 items-center'>
                     
                     <div className='pl-4 text-center'>
@@ -25,6 +25,11 @@ const Hero = () => {
                     
                 </div>
             </div>
+            <div className='grid grid-cols-1 h-screen'>
+                <video autoPlay loop muted className='video'>
+                    <source src='../videos/Abstract - 41940.mp4' type='video/mp4' />
+                </video>
+                </div>
         </>
     )
 }
