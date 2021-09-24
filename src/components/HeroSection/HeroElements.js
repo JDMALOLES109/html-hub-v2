@@ -24,7 +24,7 @@ export const HeroBg = styled.div `
 `
 
 export const VideoBg = styled.video `
-    width: 1005;
+    width: 100%;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -58,6 +58,6 @@ export const HeroBtnWrapper = styled.div `
      margin-top: 32px;
      display: flex;
      flex-direction: column;
-     align-itemd: center;
+     align-items: center;
 `
 

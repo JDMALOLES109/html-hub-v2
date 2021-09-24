@@ -6,10 +6,12 @@ import { HeroContainer,
     HeroH1,
     HeroContent
  } from './HeroElements'
- import Video from '../../videos/Abstract - 41940.mp4'
+ import Video from '../../videos/Gradient Liquid Blue Shapes Animation Relaxing Background Screensaver.mp4'
  import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
+
+
     return (
         <HeroContainer>
             <HeroBg>

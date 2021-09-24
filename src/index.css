@@ -13,6 +13,4 @@
     @apply text-blue-600 pt-4 dark:text-blue-400;
 }
 
-.video {
-    @apply fixed z-10 w-full
-}
+
