@@ -25,9 +25,15 @@ const Sidebar = ({ isOpen, toggle }) => {
                         <SidebarLink to='Team' onClick={toggle}>
                             Team
                         </SidebarLink>
+                        <SidebarLink to='Web' onClick={toggle}>
+                            Web dev
+                        </SidebarLink>
+                        <SidebarLink to='Prog' onClick={toggle}>
+                            Programming
+                        </SidebarLink>
                     </SidebarMenu>
                     <SideBtnWrap>
-                        <SidebarRoute to='/'>
+                        <SidebarRoute to='/' className='bg-blue-400'>
                             Sign In
                         </SidebarRoute>
                     </SideBtnWrap>
