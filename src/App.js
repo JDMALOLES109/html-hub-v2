@@ -4,6 +4,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import Home from './components/pages';
 import Service from './components/Service';
 import Team from './components/Team';
+import Footer from './components/Footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Home />
         <Service />
         <Team />
+        <Footer />
     </Router>
   );
 }

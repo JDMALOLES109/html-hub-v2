@@ -11,12 +11,12 @@ const Service = () => {
 
     return (
         <>
-            <div className='bg-black  grid grid-cols-1 p2 h-screen overflow-x-hidden overflow-y-hidden'>
+            <div className='bg-white  grid grid-cols-1 p2 h-screen overflow-x-hidden overflow-y-hidden'>
                 
-                        <div className='xl:flex lg:flex md:flex justify-between items-center'>
+                        <div className='xl:flex lg:flex md:flex justify-between items-center p-8'>
                             
                                 <div className='pl-8 text-center' data-aos='fade-right'>
-                                <h1 className='text-white text-5xl'>Kami ang bahala sayo!</h1>
+                                <h1 className='text-black text-5xl'>Kami ang bahala sayo!</h1>
                                 <p className='text-blue-400 pt-8'>HTML? JS? CSS? cover namin ito lahat!</p>
                                 </div>
 
