@@ -1,3 +1,4 @@
 version4.5 filter=lfs diff=lfs merge=lfs -text
 Gradient[[:space:]]Liquid[[:space:]]Blue[[:space:]]Shapes[[:space:]]Animation[[:space:]]Relaxing[[:space:]]Background[[:space:]]Screensaver.mp4 filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
