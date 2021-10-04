@@ -10,7 +10,7 @@ const Service = () => {
     }, []);
 
     return (
-        <>
+           <>
             <div className='bg-white  grid grid-cols-1 p2 h-screen overflow-x-hidden overflow-y-hidden'>
                 
                         <div className='xl:flex lg:flex md:flex justify-between items-center p-8'>
