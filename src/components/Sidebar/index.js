@@ -19,10 +19,20 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink to='about' onClick={toggle}>
-                            About
+                        <SidebarLink to='Service'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                         onClick={toggle}>
+                            Service
                         </SidebarLink>
-                        <SidebarLink to='Team' onClick={toggle}>
+                        <SidebarLink to='Team'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                         onClick={toggle}>
                             Team
                         </SidebarLink>
                         <SidebarLink to='Web' onClick={toggle}>

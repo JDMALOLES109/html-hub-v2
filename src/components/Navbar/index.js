@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import {animateScroll as scroll} from 'react-scroll'
 import {
     Nav,
     NavbarContainer,
@@ -27,13 +28,17 @@ const Navbar = ({ toggle }) => {
 
     useEffect(() => {
         window.addEventListener('scroll', changeNav)
-    }, [])
+    }, []);
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
 
     return (
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/'>
+                    <NavLogo to='/' onClick={toggleHome}>
                         HTML HUB
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -43,16 +48,26 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='/Service'>Service</NavLinks>
+                            <NavLinks to='Service'
+                            smooth={true}
+                            duration={700}
+                            spy={true}
+                            exact='true'
+                            >Service</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/Team'>Team</NavLinks>
+                            <NavLinks to='Team'
+                            smooth={true}
+                            duration={700}
+                            spy={true}
+                            exact='true'
+                            >Team</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/Web'>Web Dev</NavLinks>
+                            <NavLinks>Web Dev</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/Prog'>Programming</NavLinks>
+                            <NavLinks>Programming</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

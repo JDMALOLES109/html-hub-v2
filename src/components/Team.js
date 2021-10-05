@@ -13,7 +13,7 @@ const Team = () => {
 
     return (
         <>
-            <div className='bg-white sm:h-auto h-auto xl:h-screen lg:h-screen md:screen grid xl:flex lg:flex md:flex sm:grid-rows-1 grid-rows-1 gap-4 p-16 justify-center items-center' >
+            <div className='bg-white sm:h-auto h-auto xl:h-screen lg:h-screen md:screen grid xl:flex lg:flex md:flex sm:grid-rows-1 grid-rows-1 gap-4 p-16 justify-center items-center' id={'Team'}>
                 
 
 
