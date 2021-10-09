@@ -6,6 +6,7 @@ import Service from './components/Service';
 import Team from './components/Team';
 import Footer from './components/Footer';
 import Lingkod from './components/Lingkod';
+import WebDev from './components/WebDev';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Home />
         <Service />
         <Lingkod />
+        <WebDev />
         <Team />
         <Footer />
     </Router>

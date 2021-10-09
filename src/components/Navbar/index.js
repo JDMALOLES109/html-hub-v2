@@ -56,15 +56,20 @@ const Navbar = ({ toggle }) => {
                             >Service</NavLinks>
                         </NavItem>
                         <NavItem>
+                            <NavLinks to='Webdev'
+                            smooth={true}
+                            duration={700}
+                            spy={true}
+                            exact='true'
+                            >Web Dev</NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to='Team'
                             smooth={true}
                             duration={700}
                             spy={true}
                             exact='true'
                             >Team</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks>Web Dev</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks>Programming</NavLinks>
