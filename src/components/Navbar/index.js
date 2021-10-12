@@ -56,6 +56,14 @@ const Navbar = ({ toggle }) => {
                             >Service</NavLinks>
                         </NavItem>
                         <NavItem>
+                            <NavLinks to='Prog'
+                            smooth={true}
+                            duration={700}
+                            spy={true}
+                            exact='true'
+                            >Programming</NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to='Webdev'
                             smooth={true}
                             duration={700}
@@ -70,9 +78,6 @@ const Navbar = ({ toggle }) => {
                             spy={true}
                             exact='true'
                             >Team</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks>Programming</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

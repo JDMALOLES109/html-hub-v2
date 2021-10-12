@@ -7,6 +7,7 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 import Lingkod from './components/Lingkod';
 import WebDev from './components/WebDev';
+import Prog from './components/Prog';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Home />
         <Service />
         <Lingkod />
+        <Prog />
         <WebDev />
         <Team />
         <Footer />

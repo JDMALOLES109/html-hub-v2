@@ -35,11 +35,21 @@ const Sidebar = ({ isOpen, toggle }) => {
                          onClick={toggle}>
                             Team
                         </SidebarLink>
-                        <SidebarLink to='Web' onClick={toggle}>
-                            Web dev
-                        </SidebarLink>
-                        <SidebarLink to='Prog' onClick={toggle}>
+                        <SidebarLink to='Prog' 
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                         onClick={toggle}>
                             Programming
+                        </SidebarLink>
+                        <SidebarLink to='Web'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                         onClick={toggle}>
+                            Web dev
                         </SidebarLink>
                     </SidebarMenu>
                     <SideBtnWrap>
