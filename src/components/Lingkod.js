@@ -12,7 +12,7 @@ const Lingkod = () => {
         <>
             <div className='bg-white xl:h-screen lg:hscreen md:h-screen sm:h-auto h-auto grid grid-cols-1' id={'Service'}>
                 <div className='p-10'>
-                    <h1 className='text-3xl pt-8' data-aos='fade-up'>Ano ang maipaglilingkod namin sayo/sainyo</h1>
+                    <h1 className='text-3xl pt-12' data-aos='fade-up'>Ano ang maipaglilingkod namin sayo/sainyo</h1>
 
                     <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1' data-aos='fade-up'>
                     <div className='text-center'>
