@@ -43,7 +43,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                          onClick={toggle}>
                             Programming
                         </SidebarLink>
-                        <SidebarLink to='Web'
+                        <SidebarLink to='Webdev'
                         smooth={true}
                         duration={500}
                         spy={true}
