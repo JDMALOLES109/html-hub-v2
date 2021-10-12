@@ -14,7 +14,7 @@ const Prog = () => {
 
     return (
         <>
-            <div className='bg-blue-600 xl:h-screen lg:h-screen md:h-auto sm:h-auto h-auto grid grid-cols-1 p-8' id={'Prog'}>
+            <div className='bg-blue-600 xl:h-screen lg:h-screen md:h-auto sm:h-auto h-auto grid grid-cols-1 p-8 overflow-x-hidden' id={'Prog'}>
                 <div className='grid grid-cols-1 text-white pt-20 pb-8 text-center' data-aos='fade-left'>
                     <h1 className='text-4xl'>Welcome sa Programming!</h1>
                 </div>

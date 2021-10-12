@@ -12,7 +12,7 @@ const WebDev = () => {
 
     return (
         <>
-            <div className='bg-blue-400 xl:h-screen lg:h-screen md:h-auto sm:h-auto h-auto grid grid-cols-1 p-8' id={'Webdev'}>
+            <div className='bg-blue-400 xl:h-screen lg:h-screen md:h-auto sm:h-auto h-auto grid grid-cols-1 p-8 overflow-x-hidden' id={'Webdev'}>
                 <div className='grid grid-cols-1 text-white pt-20 pb-8 text-center' data-aos='fade-right'>
                     <h1 className='text-4xl'>Welcome sa Web development!</h1>
                 </div>
