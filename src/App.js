@@ -1,31 +1,34 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import {BrowserRouter as Router} from 'react-router-dom'
-import Home from './components/pages';
-import Service from './components/Service';
-import Team from './components/Team';
+import {Switch, Route} from 'react-router-dom'
+import Home from './components/pages/index';
+import cSharp from './components/pages/cSharp';
+import Navbar from './components/Navbar/index'
+import Sidebar from './components/Sidebar/index'
 import Footer from './components/Footer';
-import Lingkod from './components/Lingkod';
-import WebDev from './components/WebDev';
-import Prog from './components/Prog';
 
 
 
 
 function App() {
 
+  const [isOpen, setIsOpen] = useState(false)
 
+  const toggle = () => {
+      setIsOpen(!isOpen)
+  }
 
 
   return (
     <Router>
-        <Home />
-        <Service />
-        <Lingkod />
-        <Prog />
-        <WebDev />
-        <Team />
-        <Footer />
+          <Sidebar isOpen={isOpen} toggle={toggle}/>
+          <Navbar toggle={toggle}/>
+      <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/csharp" component={cSharp} />
+      </Switch>
+      <Footer />
     </Router>
   );
 }

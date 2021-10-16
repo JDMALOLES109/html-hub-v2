@@ -4,6 +4,8 @@ import cLogo from '../images/c.png'
 import cPLusLogo from '../images/c++.png'
 import javaLogo from '../images/java.png'
 import pythonLogo from '../images/python.png'
+import { Link } from 'react-router-dom'
+
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -20,9 +22,11 @@ const Prog = () => {
                 </div>
                 <div className='grid grid-cols-1' data-aos='fade-left'>
                     <div className='xl:flex lg:flex md:grid sm:grid grid grid-rows-5 justify-center items-center gap-2'>
+                        <Link to='/csharp'>
                         <div className='flex justify-center items-center w-60 h-60 bg-white rounded-md transform duration-300 hover:scale-95 cursor-pointer'>
                         <img src={cSharpLogo} className='w-6/12'/>
                         </div>
+                        </Link>
 
                         <div className='flex justify-center items-center w-60 h-60 bg-white rounded-md transform duration-300 hover:scale-95 cursor-pointer'>
                         <img src={cLogo} className='w-6/12'/>
