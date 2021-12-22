@@ -3,6 +3,7 @@ import prof from '../images/prof.jpg'
 import profE from '../images/emman.jpg'
 import profS from '../images/steph.jpg'
 import profF from '../images/fatima.jpg'
+import profJ from '../images/jen.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -45,6 +46,17 @@ const Team = () => {
                 <img src={profF} alt='Fatima'  className='xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-5/12 w-5/12 rounded-md'/>
                 </div>
                 <h1 className='xl:text-3xl lg:text-2xl md:text-xl sm:text-3xl text-3xl dark:text-white'>Fatima Dimaunahan</h1>
+                <p className='text-blue-600 dark:text-blue-300'>Developer</p>
+                </div>
+                </div>
+
+
+                <div>
+                <div className='text-center' data-aos='fade-up'>
+                <div className='flex justify-center'>
+                <img src={profJ} alt='jen'  className='xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-5/12 w-5/12 rounded-md'/>
+                </div>
+                <h1 className='xl:text-3xl lg:text-2xl md:text-xl sm:text-3xl text-3xl dark:text-white'>Jennilyn Paloga</h1>
                 <p className='text-blue-600 dark:text-blue-300'>Developer</p>
                 </div>
                 </div>
