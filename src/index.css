@@ -13,4 +13,9 @@
     @apply text-blue-600 pt-4 dark:text-blue-400;
 }
 
-
+@layer components {
+    .hero {
+        background-image: url('./images/Desktop - 4.png');
+        background-size: cover;
+    }
+}
