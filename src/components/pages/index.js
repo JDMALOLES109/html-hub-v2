@@ -15,9 +15,6 @@ const Home = () => {
            
             <HeroSection />
             <Service />
-            <Lingkod />
-            <Prog />
-            <WebDev />
             <Team />
             
         </>

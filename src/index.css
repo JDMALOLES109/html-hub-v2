@@ -14,8 +14,5 @@
 }
 
 @layer components {
-    .hero {
-        background-image: url('./images/Desktop - 4.png');
-        background-size: cover;
-    }
+    
 }

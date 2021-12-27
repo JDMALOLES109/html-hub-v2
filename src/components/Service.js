@@ -11,10 +11,10 @@ const Service = () => {
 
     return (
            <>
-            <div className="hero grid grid-cols-1 h-screen">
+            <div className="grid grid-cols-1 h-screen" id={'Service'}>
                 <div className='grid grid-cols-2'>
-                    <div className='border-2 border-white flex justify-center'>hello</div>
-                    <div className='border-2 border-white'>world</div>
+                    <div className='bg-gray-700 border-2 border-white flex justify-center items-center text-6xl text-white'>Web Development</div>
+                    <div className='bg-gray-500 border-2 border-white flex justify-center items-center text-6xl text-white'>Programming</div>
                 </div>
             </div>
         </>
