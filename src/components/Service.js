@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import comp from '../images/comp.png'
+import videoW from '../images/comp.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
