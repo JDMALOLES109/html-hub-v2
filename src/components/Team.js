@@ -20,12 +20,12 @@ const Team = () => {
                 <div className='text-center' data-aos='fade-up'>
                 <div className='flex'>
                 <div className='flex justify-center'>
-                <img src={prof} alt='jd'  className='xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-5/12 w-5/12 rounded-md'/>
+                <img src={prof} alt='jd'  className='xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-5/12 w-6/12 rounded-md'/>
                 </div>
                 <div className='grid grid-rows-3'>
                 <div></div>
                 <div>
-                <h1 className='xl:text-3xl lg:text-2xl md:text-xl sm:text-3xl text-3xl text-white'>JD Maloles</h1>
+                <h1 className='xl:text-md lg:text-2xl md:text-md sm:text-md text-md text-white'>JD Maloles</h1>
                 <p className='text-blue-600 dark:text-blue-300'>CEO/ Head developer</p>
                 </div>
                 <div></div>
@@ -41,7 +41,7 @@ const Team = () => {
                 <div className='flex justify-center'>
                 <img src={profE} alt='Emman'  className='xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-5/12 w-5/12 rounded-md'/>
                 </div>
-                <h1 className='xl:text-3xl lg:text-2xl md:text-xl sm:text-3xl text-3xl text-white'>Emmanuel Lobos</h1>
+                <h1 className='xl:text-md lg:text-2xl md:text-md sm:text-md text-md text-white'>Emmanuel Lobos</h1>
                 <p className='text-blue-600 dark:text-blue-300'>Developer</p>
                 </div>
                 </div>
@@ -52,7 +52,7 @@ const Team = () => {
                 <div className='flex justify-center'>
                 <img src={profF} alt='Fatima'  className='xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-5/12 w-5/12 rounded-md'/>
                 </div>
-                <h1 className='xl:text-3xl lg:text-2xl md:text-xl sm:text-3xl text-3xl text-white'>Fatima Dimaunahan</h1>
+                <h1 className='xl:text-md lg:text-2xl md:text-md sm:text-md text-md text-white'>Fatima Dimaunahan</h1>
                 <p className='text-blue-600 dark:text-blue-300'>Developer</p>
                 </div>
                 </div>
@@ -63,7 +63,7 @@ const Team = () => {
                 <div className='flex justify-center'>
                 <img src={profJ} alt='jen'  className='xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-5/12 w-5/12 rounded-md'/>
                 </div>
-                <h1 className='xl:text-3xl lg:text-2xl md:text-xl sm:text-3xl text-3xl text-white'>Jennilyn Paloga</h1>
+                <h1 className='xl:text-md lg:text-2xl md:text-md sm:text-md text-md text-white'>Jennilyn Paloga</h1>
                 <p className='text-blue-600 dark:text-blue-300'>Developer</p>
                 </div>
                 </div>
@@ -74,7 +74,7 @@ const Team = () => {
                 <div className='flex justify-center'>
                 <img src={profS} alt='Steph'  className='xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-5/12 w-5/12 rounded-md'/>
                 </div>
-                <h1 className='xl:text-3xl lg:text-2xl md:text-xl sm:text-3xl text-3xl text-white'>Stephen Jovilliar</h1>
+                <h1 className='xl:text-md lg:text-2xl md:text-md sm:text-md text-md text-white'>Stephen Jovilliar</h1>
                 <p className='text-blue-600 dark:text-blue-300'>Developer</p>
                 </div>
                 </div>
