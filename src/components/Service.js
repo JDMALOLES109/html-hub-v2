@@ -14,23 +14,24 @@ const Service = () => {
            <>
             <div className="grid grid-cols-1 h-screen overflow-x-hidden overflow-y-hidden" id={'Service'}>
                 <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-rows-2 grid-rows-2'>
-                    <div className='xl:h-screen lg:h-screen md:h-screen bg-gray-700 border-2 border-white' data-aos='fade-right'>
-                    <video autoPlay loop muted src={videoW} type='video/mp4' className='object-fill w-full h-full z-10' />
-                    <div className='grid grid-rows-2 z-40'>
-                            <div className='flex justify-center items-center'><h1 className='text-6xl text-white'>Programming</h1></div>
-                            <div className='flex justify-center items-center'>
-                            <a href='prog.js' className='bg-blue-500 rounded-md text-center p-4 text-white w-3/12'>Aralin!</a>
-                            </div>
+                    <div className='xl:h-screen lg:h-screen md:h-screen bg-gray-700 border-2 border-white flex justify-center items-center' data-aos='fade-right'>
+                    <div className='flex flex-col items-center z-10 absolute'>
+                            
+                                <h1 className='text-6xl text-white'>Web Development</h1>
+                                <a href='web.js' className='bg-blue-500 rounded-md text-center p-4 text-white w-3/12'>Aralin!</a>
+                                
                         </div>
+                    <video autoPlay loop muted src={videoW} type='video/mp4' className='object-fill w-full h-full' />
                     </div>
-                    <div className='xl:h-screen lg:h-screen md:h-screen bg-gray-700 border-2 border-white' data-aos='fade-left'>
-                    <video autoPlay loop muted src={videoP} type='video/mp4' className='object-fill w-full h-full z-10' />
-                    <div className='grid grid-rows-2 z-40'>
-                            <div className='flex justify-center items-center'><h1 className='text-6xl text-white'>Programming</h1></div>
-                            <div className='flex justify-center items-center'>
-                            <a href='prog.js' className='bg-blue-500 rounded-md text-center p-4 text-white w-3/12'>Aralin!</a>
-                            </div>
+                    
+                    <div className='xl:h-screen lg:h-screen md:h-screen bg-gray-700 border-2 border-white flex justify-center items-center' data-aos='fade-left'>
+                    <div className='flex flex-col items-center z-10 absolute'>
+                            
+                                <h1 className='text-6xl text-white'>Programming</h1>
+                                <a href='prog.js' className='bg-blue-500 rounded-md text-center p-4 text-white w-3/12'>Aralin!</a>
+                                
                         </div>
+                    <video autoPlay loop muted src={videoP} type='video/mp4' className='object-fill w-full h-full' />
                     </div>
                 </div>
             </div>
