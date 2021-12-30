@@ -34,5 +34,7 @@ module.exports = {
     animation: ["motion-safe"],
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }

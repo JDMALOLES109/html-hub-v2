@@ -8,6 +8,7 @@ import Navbar from './components/Navbar/index'
 import Sidebar from './components/Sidebar/index'
 import Footer from './components/Footer';
 import signIn from './components/pages/signIn';
+import register from './components/pages/register';
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/csharp" component={cSharp} />
+          <Route path="/register" component={register} />
           <Route path="/signin" component={signIn} />
       </Switch>
       <Footer />

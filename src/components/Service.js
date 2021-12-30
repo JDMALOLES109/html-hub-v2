@@ -21,7 +21,7 @@ const Service = () => {
                                 <a href='web.js' className='bg-blue-500 rounded-md text-center p-4 text-white w-3/12'>Aralin!</a>
                                 
                         </div>
-                    <video autoPlay loop muted src={videoW} type='video/mp4' className='object-fill w-full h-full' />
+                    <video autoPlay loop muted src={videoW} type='video/mp4' className='object-fill w-full h-full hidden' />
                     </div>
                     
                     <div className='xl:h-screen lg:h-screen md:h-screen bg-gray-700 border-2 border-white flex justify-center items-center' data-aos='fade-left'>
@@ -31,7 +31,7 @@ const Service = () => {
                                 <a href='prog.js' className='bg-blue-500 rounded-md text-center p-4 text-white w-3/12'>Aralin!</a>
                                 
                         </div>
-                    <video autoPlay loop muted src={videoP} type='video/mp4' className='object-fill w-full h-full' />
+                    <video autoPlay loop muted src={videoP} type='video/mp4' className='object-fill w-full h-full hidden' />
                     </div>
                 </div>
             </div>

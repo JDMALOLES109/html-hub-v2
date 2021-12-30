@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                         spy={true}
                         exact='true'
                          onClick={toggle}>
-                            Service
+                            Modules
                         </SidebarLink>
                         <SidebarLink to='Team'
                         smooth={true}
@@ -34,22 +34,6 @@ const Sidebar = ({ isOpen, toggle }) => {
                         exact='true'
                          onClick={toggle}>
                             Team
-                        </SidebarLink>
-                        <SidebarLink to='Prog' 
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact='true'
-                         onClick={toggle}>
-                            Programming
-                        </SidebarLink>
-                        <SidebarLink to='Webdev'
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact='true'
-                         onClick={toggle}>
-                            Web dev
                         </SidebarLink>
                     </SidebarMenu>
                     <SideBtnWrap>
