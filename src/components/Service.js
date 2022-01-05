@@ -18,7 +18,7 @@ const Service = () => {
                     <div className='flex flex-col items-center z-10 absolute'>
                             
                                 <h1 className='text-6xl text-white'>Web Development</h1>
-                                <a href='web.js' className='bg-blue-500 rounded-md text-center p-4 text-white w-3/12'>Aralin!</a>
+                                <a href='web' className='bg-blue-500 rounded-md text-center p-4 text-white w-3/12'>Aralin!</a>
                                 
                         </div>
                     <video autoPlay loop muted src={videoW} type='video/mp4' className='object-fill w-full h-full hidden' />

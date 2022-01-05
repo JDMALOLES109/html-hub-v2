@@ -4,6 +4,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import {Switch, Route} from 'react-router-dom'
 import Home from './components/pages/index';
 import cSharp from './components/pages/cSharp';
+import web from './components/pages/web';
 import Navbar from './components/Navbar/index'
 import Sidebar from './components/Sidebar/index'
 import Footer from './components/Footer';
@@ -28,6 +29,7 @@ function App() {
       <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/csharp" component={cSharp} />
+          <Route path="/web" component={web} />
           <Route path="/register" component={register} />
           <Route path="/signin" component={signIn} />
       </Switch>
